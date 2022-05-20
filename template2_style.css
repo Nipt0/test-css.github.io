@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+div.main {
+   width: 80%;
+   margin: 10rem auto;
+   position: relative;
+   background: #f1f1f1;
+   padding: 3rem;
+   border-radius: 10px;
+}
+div.block {
+   display: block;
+   color: #414c64;
+   margin: 0 auto;
+   font-family: 'arial',sans-serif;
+   text-align: center;
+}
+div.logo {
+   color: white;
+   padding: 0.6rem;
+   border-radius: 8px;
+   background: #414c64;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+   width: 7%;
+   font-weight: bold;
+   margin: 0 0 0 auto;
+}
+span.eat {
+   color: #ffce3a;
+}
+
+h1.title {
+   font-size: 35px;
+   text-transform: capitalize;
+}
+span.shadow {
+   text-shadow: 5px 2px 0 #414c64;
+   font-size: 45px;
+   margin-right: 3px;
+   color: #ffce3a;
+}
+h3.subtitle {
+   font-size: 18px;
+   padding: 0.4rem;
+   background: #ffce3a50;
+   border-radius: 7px;
+}
+h5.name {
+   font-size: 20px;
+}
+hr.break {
+   margin: 6rem auto 0.5rem;
+   width: 50%;
+   border-color: #414c64;
+}
+p.info {
+   margin: 2rem auto;
+   font-style: italic;
+}
+a.button {
+   color: #414c64;
+   text-transform: capitalize;
+   font-weight: bold;
+   text-decoration: none;
+   font-size: 18px;
+   padding: 0.7rem;
+   border: 3px solid #414c64;
+   border-radius: 10px;
+   background: white;
+   transition: all .3s ease-out;
+}
+a.button:hover {
+   border-color: #ffce3a;
+   color: #ffce3a;
+   box-shadow: 7px 7px 0 0 #ffce3a85;
+}
+span.yellow {
+   color: #ffce3a;
+}
